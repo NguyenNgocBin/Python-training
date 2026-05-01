@@ -1,0 +1,1 @@
+# Tạo lambda function square để tính bình phương một số.
