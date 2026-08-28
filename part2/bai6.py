@@ -19,7 +19,8 @@ for name, score in scores.items():
 min_score = min(scores.values())
 for name, score in scores.items():
     if score == min_score:
-        print("Sinh viên điểm thấp nhất:", name, score)
+        print("Sinh Vien diem thap nhat: ", name, score)
+
 # 5. Tạo dictionary mới chứa sinh viên có điểm >= 8
 high_scores = {
     name: score
@@ -27,3 +28,12 @@ high_scores = {
     if score >= 8
 }
 print(high_scores)
+
+list_score = {}
+for name, score in scores.items():
+    if score >= 8:
+        list_score[name] = score
+print(list_score)
+    
+
+
